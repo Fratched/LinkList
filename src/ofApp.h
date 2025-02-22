@@ -1,6 +1,7 @@
 #pragma once
 
 #include "ofMain.h"
+#include "../LinkedList.cpp"
 
 class ofApp : public ofBaseApp{
 
@@ -20,5 +21,21 @@ class ofApp : public ofBaseApp{
 		void windowResized(int w, int h);
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
+		
+
+
+
+
+
+
+
+
+		
+			
+
+			LinkedList list;
+			float amplitude = 50; // Oscillation amplitude
+			float time = 0;       // Time for animation
+			float panOffset = 0;  // Camera pan offset
 		
 };
